@@ -80,7 +80,7 @@ class Gallery extends PureComponent {
 
   onPhotoPress() {
     const { activePhotoPressed } = this.props;
-    this.move(DIRECTION_NEXT);
+    // this.move(DIRECTION_NEXT);
     activePhotoPressed();
   }
 
